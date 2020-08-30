@@ -67,6 +67,7 @@
             this.BtnFilter.TabIndex = 4;
             this.BtnFilter.Text = "Filter";
             this.BtnFilter.UseVisualStyleBackColor = true;
+            this.BtnFilter.Visible = false;
             // 
             // BtnSearch
             // 
@@ -76,6 +77,8 @@
             this.BtnSearch.TabIndex = 8;
             this.BtnSearch.Text = "Search";
             this.BtnSearch.UseVisualStyleBackColor = true;
+            this.BtnSearch.Visible = false;
+            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 
             // MapWindow
             // 

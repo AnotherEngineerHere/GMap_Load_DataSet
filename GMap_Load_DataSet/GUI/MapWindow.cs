@@ -77,8 +77,19 @@ namespace GMap_Load_DataSet.GUI
             if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 listMap.GetDataGrid.DataSource = ImportData(openFileDialog.FileName);
-            }    
+            }
+            addCategoriesComboBox.GetDepartments.Visible = true;
+            BtnSearch.Visible = true;
 
+
+        }
+
+        private void BtnSearch_Click(object sender, EventArgs e)
+        {
+            if (addCategoriesComboBox.GetDepartments.Text.Length > 0)
+            {
+                addCategoriesComboBox.GetPossibleFiles.Visible = true;
+            }
         }
     }
 }

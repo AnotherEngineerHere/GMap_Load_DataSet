@@ -41,7 +41,7 @@ namespace GMap_Load_DataSet.GUI
 
         private void CategoriesCB_SelectedIndexChanged(object sender, EventArgs e)
         {
-            GetPossibleFiles.Visible = true;
+
         }
 
     }
