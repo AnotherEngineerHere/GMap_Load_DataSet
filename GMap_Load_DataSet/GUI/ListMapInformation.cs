@@ -9,17 +9,6 @@ namespace GMap_Load_DataSet.GUI
             InitializeComponent();
         }
 
-        public DataGridView GetDataGrid
-        {
-            get
-            {
-                return dataGridMap;
-            }
-        }
-
-        private void dataGridMap_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
+        public DataGridView GetListView { get { return listMap; } }
     }
 }

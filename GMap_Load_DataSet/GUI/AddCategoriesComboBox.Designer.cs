@@ -41,7 +41,6 @@
             this.CategoriesCB.Size = new System.Drawing.Size(121, 21);
             this.CategoriesCB.TabIndex = 0;
             this.CategoriesCB.Visible = false;
-            this.CategoriesCB.SelectedIndexChanged += new System.EventHandler(this.CategoriesCB_SelectedIndexChanged);
             // 
             // PossibleValuesCB
             // 

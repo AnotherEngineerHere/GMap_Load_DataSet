@@ -19,3 +19,16 @@ E:\Documentos\C#\GMap_Load_DataSet-master\GMap_Load_DataSet\obj\Debug\GMap_Load_
 E:\Documentos\C#\GMap_Load_DataSet-master\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.csproj.CoreCompileInputs.cache
 E:\Documentos\C#\GMap_Load_DataSet-master\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.exe
 E:\Documentos\C#\GMap_Load_DataSet-master\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.pdb
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\GMap_Load_DataSet.exe.config
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\GMap_Load_DataSet.exe
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\GMap_Load_DataSet.pdb
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.csprojAssemblyReference.cache
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.GUI.AddCategoriesComboBox.resources
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.GUI.ListMapInformation.resources
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.GUI.MapWindow.resources
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.Properties.Resources.resources
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.csproj.GenerateResource.cache
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.csproj.CoreCompileInputs.cache
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.exe
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.pdb
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.GUI.Map.resources

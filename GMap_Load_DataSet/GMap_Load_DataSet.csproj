@@ -58,6 +58,12 @@
     <Compile Include="GUI\ListMapInformation.Designer.cs">
       <DependentUpon>ListMapInformation.cs</DependentUpon>
     </Compile>
+    <Compile Include="GUI\Map.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GUI\Map.Designer.cs">
+      <DependentUpon>Map.cs</DependentUpon>
+    </Compile>
     <Compile Include="GUI\MapWindow.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,6 +79,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\ListMapInformation.resx">
       <DependentUpon>ListMapInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GUI\Map.resx">
+      <DependentUpon>Map.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\MapWindow.resx">
       <DependentUpon>MapWindow.cs</DependentUpon>

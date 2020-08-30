@@ -28,68 +28,55 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttImport = new System.Windows.Forms.Button();
+            this.BtnImport = new System.Windows.Forms.Button();
+            this.BtnViewMap = new System.Windows.Forms.Button();
+            this.listMapInformation1 = new GMap_Load_DataSet.GUI.ListMapInformation();
             this.addCategoriesComboBox = new GMap_Load_DataSet.GUI.AddCategoriesComboBox();
-            this.listMap = new GMap_Load_DataSet.GUI.ListMapInformation();
-            this.BtnFilter = new System.Windows.Forms.Button();
-            this.BtnSearch = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // buttImport
+            // BtnImport
             // 
-            this.buttImport.Location = new System.Drawing.Point(883, 51);
-            this.buttImport.Name = "buttImport";
-            this.buttImport.Size = new System.Drawing.Size(100, 48);
-            this.buttImport.TabIndex = 1;
-            this.buttImport.Text = "Import";
-            this.buttImport.UseVisualStyleBackColor = true;
-            this.buttImport.Click += new System.EventHandler(this.buttImport_Click_1);
+            this.BtnImport.Location = new System.Drawing.Point(703, 67);
+            this.BtnImport.Name = "BtnImport";
+            this.BtnImport.Size = new System.Drawing.Size(100, 48);
+            this.BtnImport.TabIndex = 1;
+            this.BtnImport.Text = "Import";
+            this.BtnImport.UseVisualStyleBackColor = true;
+            this.BtnImport.Click += new System.EventHandler(this.BtnImport_Click_1);
+            // 
+            // BtnViewMap
+            // 
+            this.BtnViewMap.Location = new System.Drawing.Point(703, 12);
+            this.BtnViewMap.Name = "BtnViewMap";
+            this.BtnViewMap.Size = new System.Drawing.Size(100, 49);
+            this.BtnViewMap.TabIndex = 5;
+            this.BtnViewMap.Text = "View Map";
+            this.BtnViewMap.UseVisualStyleBackColor = true;
+            this.BtnViewMap.Click += new System.EventHandler(this.BtnViewMap_Click);
+            // 
+            // listMapInformation1
+            // 
+            this.listMapInformation1.Location = new System.Drawing.Point(25, 121);
+            this.listMapInformation1.Name = "listMapInformation1";
+            this.listMapInformation1.Size = new System.Drawing.Size(800, 600);
+            this.listMapInformation1.TabIndex = 4;
             // 
             // addCategoriesComboBox
             // 
-            this.addCategoriesComboBox.Location = new System.Drawing.Point(45, 12);
+            this.addCategoriesComboBox.Location = new System.Drawing.Point(113, 12);
             this.addCategoriesComboBox.Name = "addCategoriesComboBox";
-            this.addCategoriesComboBox.Size = new System.Drawing.Size(178, 103);
+            this.addCategoriesComboBox.Size = new System.Drawing.Size(413, 103);
             this.addCategoriesComboBox.TabIndex = 3;
-            // 
-            // listMap
-            // 
-            this.listMap.Location = new System.Drawing.Point(25, 136);
-            this.listMap.Name = "listMap";
-            this.listMap.Size = new System.Drawing.Size(865, 533);
-            this.listMap.TabIndex = 2;
-            // 
-            // BtnFilter
-            // 
-            this.BtnFilter.Location = new System.Drawing.Point(229, 92);
-            this.BtnFilter.Name = "BtnFilter";
-            this.BtnFilter.Size = new System.Drawing.Size(110, 23);
-            this.BtnFilter.TabIndex = 4;
-            this.BtnFilter.Text = "Filter";
-            this.BtnFilter.UseVisualStyleBackColor = true;
-            this.BtnFilter.Visible = false;
-            // 
-            // BtnSearch
-            // 
-            this.BtnSearch.Location = new System.Drawing.Point(229, 51);
-            this.BtnSearch.Name = "BtnSearch";
-            this.BtnSearch.Size = new System.Drawing.Size(110, 23);
-            this.BtnSearch.TabIndex = 8;
-            this.BtnSearch.Text = "Search";
-            this.BtnSearch.UseVisualStyleBackColor = true;
-            this.BtnSearch.Visible = false;
-            this.BtnSearch.Click += new System.EventHandler(this.BtnSearch_Click);
             // 
             // MapWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1264, 681);
-            this.Controls.Add(this.BtnSearch);
-            this.Controls.Add(this.BtnFilter);
+            this.ClientSize = new System.Drawing.Size(909, 681);
+            this.Controls.Add(this.BtnViewMap);
+            this.Controls.Add(this.listMapInformation1);
             this.Controls.Add(this.addCategoriesComboBox);
-            this.Controls.Add(this.listMap);
-            this.Controls.Add(this.buttImport);
+            this.Controls.Add(this.BtnImport);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "MapWindow";
@@ -101,10 +88,9 @@
         }
 
         #endregion
-        private System.Windows.Forms.Button buttImport;
-        private ListMapInformation listMap;
+        private System.Windows.Forms.Button BtnImport;
         private AddCategoriesComboBox addCategoriesComboBox;
-        private System.Windows.Forms.Button BtnFilter;
-        private System.Windows.Forms.Button BtnSearch;
+        private ListMapInformation listMapInformation1;
+        private System.Windows.Forms.Button BtnViewMap;
     }
 }

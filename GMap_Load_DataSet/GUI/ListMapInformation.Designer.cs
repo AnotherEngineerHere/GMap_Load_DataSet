@@ -28,37 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridMap = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridMap)).BeginInit();
+            this.listMap = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.listMap)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridMap
+            // listMap
             // 
-            this.dataGridMap.AllowUserToAddRows = false;
-            this.dataGridMap.AllowUserToDeleteRows = false;
-            this.dataGridMap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridMap.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.dataGridMap.Location = new System.Drawing.Point(0, 0);
-            this.dataGridMap.Name = "dataGridMap";
-            this.dataGridMap.ReadOnly = true;
-            this.dataGridMap.Size = new System.Drawing.Size(800, 600);
-            this.dataGridMap.TabIndex = 0;
-            this.dataGridMap.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridMap_CellContentClick);
+            this.listMap.AllowUserToAddRows = false;
+            this.listMap.AllowUserToDeleteRows = false;
+            this.listMap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.listMap.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listMap.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.listMap.Location = new System.Drawing.Point(0, 0);
+            this.listMap.Name = "listMap";
+            this.listMap.ReadOnly = true;
+            this.listMap.Size = new System.Drawing.Size(800, 600);
+            this.listMap.TabIndex = 0;
+            this.listMap.AutoGenerateColumns = true;
             // 
             // ListMapInformation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.dataGridMap);
+            this.Controls.Add(this.listMap);
             this.Name = "ListMapInformation";
             this.Size = new System.Drawing.Size(800, 600);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridMap)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.listMap)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridMap;
+        private System.Windows.Forms.DataGridView listMap;
     }
 }

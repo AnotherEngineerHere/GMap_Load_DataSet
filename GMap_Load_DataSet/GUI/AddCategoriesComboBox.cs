@@ -13,7 +13,7 @@ namespace GMap_Load_DataSet.GUI
     public partial class AddCategoriesComboBox : UserControl
     {
 
-        string[] _departments = { "BOGOTA D.C.", "CUNDINAMARCA", "BOYACA", "META", "AMAZONAS", "GUAINIA", "CASANARE", "CALDAS", "QUINDIO", "VALLE DEL CAUCA", "RISARALDA", "TOLIMA", "BOLIVAR", "GUAJIRA", "MAGDALENA", "ATLANTICO", "CORDOBA", "SUCRE", "NARIÑO", "ARAUCA", "PUTUMAYO", "CESAR", "SANTANDER", "NORTE DE SANTADER", "HUILA" };
+        string[] _departments = { "TODOS","BOGOTA D.C.", "CUNDINAMARCA", "BOYACA", "META", "AMAZONAS", "GUAINIA", "CASANARE", "CALDAS", "QUINDIO", "VALLE DEL CAUCA", "RISARALDA", "TOLIMA", "BOLIVAR", "GUAJIRA", "MAGDALENA", "ATLANTICO", "CORDOBA", "SUCRE", "NARIÑO", "ARAUCA", "PUTUMAYO", "CESAR", "SANTANDER", "NORTE DE SANTADER", "HUILA" };
 
 
         public AddCategoriesComboBox()
@@ -37,9 +37,11 @@ namespace GMap_Load_DataSet.GUI
                 CategoriesCB.Items.Add(_departments[i]);
             }
 
+
         }
 
-        private void CategoriesCB_SelectedIndexChanged(object sender, EventArgs e)
+
+        public void LoadPossibleValues(string d)
         {
 
         }
