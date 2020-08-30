@@ -34,17 +34,28 @@
             // 
             // listMap
             // 
+            this.listMap.AccessibleRole = System.Windows.Forms.AccessibleRole.ScrollBar;
             this.listMap.AllowUserToAddRows = false;
             this.listMap.AllowUserToDeleteRows = false;
+            this.listMap.AllowUserToResizeColumns = false;
+            this.listMap.AllowUserToResizeRows = false;
+            this.listMap.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.listMap.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.listMap.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
+            this.listMap.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listMap.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             this.listMap.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.listMap.Dock = System.Windows.Forms.DockStyle.Fill;
             this.listMap.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.listMap.Location = new System.Drawing.Point(0, 0);
             this.listMap.Name = "listMap";
             this.listMap.ReadOnly = true;
+            this.listMap.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.AutoSizeToAllHeaders;
+            this.listMap.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.CellSelect;
             this.listMap.Size = new System.Drawing.Size(800, 600);
             this.listMap.TabIndex = 0;
-            this.listMap.AutoGenerateColumns = true;
+            this.listMap.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.listMap_CellContentClick);
             // 
             // ListMapInformation
             // 

@@ -52,13 +52,14 @@
             this.BtnViewMap.TabIndex = 5;
             this.BtnViewMap.Text = "View Map";
             this.BtnViewMap.UseVisualStyleBackColor = true;
+            this.BtnViewMap.Visible = false;
             this.BtnViewMap.Click += new System.EventHandler(this.BtnViewMap_Click);
             // 
             // listMapInformation1
             // 
-            this.listMapInformation1.Location = new System.Drawing.Point(25, 121);
+            this.listMapInformation1.Location = new System.Drawing.Point(12, 141);
             this.listMapInformation1.Name = "listMapInformation1";
-            this.listMapInformation1.Size = new System.Drawing.Size(800, 600);
+            this.listMapInformation1.Size = new System.Drawing.Size(800, 478);
             this.listMapInformation1.TabIndex = 4;
             // 
             // addCategoriesComboBox

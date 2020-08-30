@@ -10,5 +10,10 @@ namespace GMap_Load_DataSet.GUI
         }
 
         public DataGridView GetListView { get { return listMap; } }
+
+        private void listMap_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            
+        }
     }
 }

@@ -18,7 +18,6 @@ namespace GMap_Load_DataSet.GUI
 {
     public partial class Map : Form
     {
-        GMapOverlay overlayOne;
         public Map()
         {
             InitializeComponent();

@@ -17,12 +17,11 @@ namespace GMap_Load_DataSet.Model
         string Town { get; }
         string Schedule { get; }
         string Departament { get; }
-        string Country { get; }
         string Postal_Code { get; }
         string lat { get; }
         string lon { get; }
 
-        public Office(string ubication, string phone, string email, string address, string town, string schedule, string departament, string country, string postal_Code, string lat, string lon)
+        public Office(string ubication, string phone, string email, string address, string town, string schedule, string departament,string postal_Code, string lat, string lon)
         {
             Ubication = ubication;
             Phone = phone;
@@ -31,14 +30,13 @@ namespace GMap_Load_DataSet.Model
             Town = town;
             Schedule = schedule;
             Departament = departament;
-            Country = country;
             Postal_Code = postal_Code;
             this.lat = lat;
             this.lon = lon;
         }
         public Office(string location, string t, string lo, string la)
         {
-           Ubication = location;
+             Ubication = location;
             Town = t;
             lon = lo;
             lat = la;
