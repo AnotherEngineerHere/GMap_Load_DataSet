@@ -32,3 +32,5 @@ E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap
 E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.exe
 E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.pdb
 E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.GUI.Map.resources
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\GMap.NET.WindowsForms.xml
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.csproj.CopyComplete
