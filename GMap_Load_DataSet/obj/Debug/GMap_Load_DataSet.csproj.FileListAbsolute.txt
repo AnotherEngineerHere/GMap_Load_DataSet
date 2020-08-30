@@ -34,3 +34,15 @@ E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap
 E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.GUI.Map.resources
 E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\GMap.NET.WindowsForms.xml
 E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\obj\Debug\GMap_Load_DataSet.csproj.CopyComplete
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\EntityFramework.dll
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\EntityFramework.SqlServer.dll
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\GMap.NET.Core.dll
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\Newtonsoft.Json.dll
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\System.Data.SQLite.dll
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\EntityFramework.xml
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\EntityFramework.SqlServer.xml
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\Newtonsoft.Json.xml
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\System.Data.SQLite.xml
+E:\Documentos\C#\GmapDataLoad\GMap_Load_DataSet\GMap_Load_DataSet\bin\Debug\System.Data.SQLite.dll.config

@@ -11,7 +11,7 @@ namespace GMap_Load_DataSet.GUI
 
     public partial class MapWindow : Form
     {
-        ListOffices f;
+        public ListOffices f { get; }
         public MapWindow()
         {
             InitializeComponent();
@@ -23,13 +23,19 @@ namespace GMap_Load_DataSet.GUI
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
 
-            if (openFileDialog.ShowDialog() == DialogResult.OK) { }
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
                 string[] Data = File.ReadAllLines(openFileDialog.FileName);
                 PutDataInTable(Data);
                 BtnViewMap.Visible = true;
                 addCategoriesComboBox.GetDepartments.Visible = true;
-
+            }
+            else
+            {
+                string message = "You did not selected any file please try again";
+                string caption = "File Neede";
+                MessageBoxButtons buttons = MessageBoxButtons.OK;
+                MessageBox.Show(message,caption,buttons);
             }
 
         }
@@ -67,7 +73,7 @@ namespace GMap_Load_DataSet.GUI
             string lat = parts[8];
             string lon = parts[9];
             f.Add_List_Map(location, _phone, _mail, _dir, _town, _schedule, dpto, zipCode, lat, lon);
-            listMapInformation1.GetListView.Rows.Add(location, _phone, _mail, _dir, _town, _schedule, zipCode);
+            listMapInformation1.GetListView.Rows.Add(location, _phone, _mail, _dir,_schedule,_town, zipCode);
         }
 
         public void LoadDataFromFileToComboBox(String d)
@@ -82,6 +88,7 @@ namespace GMap_Load_DataSet.GUI
         private void BtnViewMap_Click(object sender, EventArgs e)
         {
             Map m = new Map();
+            m.Of = f.Offices;
             m.Show();
         }
     }
